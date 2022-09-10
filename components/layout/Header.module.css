@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  display: flex;
+  height: min-content;  
+  width: 100%;  
+  background-color: #283618;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.headerline {
+  margin-left: 10px;  
+  font-size: 2.5em;
+}
+
+.line {
+  margin-right: 10px;
+  cursor: pointer;
+  text-align: end;
+}
+
+.instagram {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@supports (display: flex) {
+  @media screen and (min-width: 280px) {
+    .header {
+      font-size: small;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    .header {
+      font-size: medium;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .header {
+      font-size: large;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.container {
+    margin: 0;
+    max-width: 100%;
+    padding: 1%;
+    background-color: transparent;
+}
+
+@supports (display: flex) {
+    @media screen and (min-width: 280px) {
+        .container {       
+            font-size: medium;                 
+            min-height: 27rem;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+    @media screen and (min-width: 361px) {
+        .container {                 
+            min-height: 31rem;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        .container {
+            font-size: large;
+            min-height: 33.5rem;
+        }
+    }
+}

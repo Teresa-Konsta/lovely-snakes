@@ -1,0 +1,47 @@
+.menu {
+  position: relative;
+  display: grid;
+  top: 0;
+  width: 100%;
+  text-align: end;  
+  justify-content: center;
+}
+
+.menu a,
+.icon {
+  line-height: 2.75rem;
+  padding: 3px;
+}
+
+.activeLink,
+.menu a:hover,
+.icon:hover {
+  background-color: white;
+  color: black;
+  border-radius: 2px;  
+}
+
+.icon {
+  font-style: white;
+  cursor: pointer;
+  font-size: x-large;
+  margin-top: 5%;
+}
+
+@supports (display: flex) {
+  @media screen and (min-width: 280px) {
+    .menu {
+      font-size: small bold;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    .menu {
+      font-size: medium;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .menu {
+      font-size: large;
+    }
+  }
+}
