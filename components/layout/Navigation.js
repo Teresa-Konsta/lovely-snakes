@@ -12,6 +12,8 @@ const Navigation = (props) => {
     { title: 'Обігрів', path: '/heating' },    
     { title: 'Декор та Обладнання', path: '/accessories' },
     { title: 'Годування', path: '/feeding' },
+    { title: 'Розмноження', path: '/reproduction' },
+    { title: 'Лайфхаки та Поради', path: '/lifehacks' },    
     { title: 'Важливо!', path: '/important'}
   ];
 

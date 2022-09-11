@@ -3,6 +3,19 @@
     max-width: 100%;
     padding: 1%;
     background-color: transparent;
+    text-align: justify;
+}
+
+.container span {
+    text-decoration: underline;
+    font-style: oblique;
+    color: rgb(174, 26, 26);
+}
+
+.container div {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 
 @supports (display: flex) {

@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import styles from './Header.module.css';
 
-const Header = (props) => {
+const Header = () => {
     const router = useRouter();
 
     return(

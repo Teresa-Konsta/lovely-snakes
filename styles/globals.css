@@ -29,3 +29,7 @@ html::-webkit-scrollbar-thumb {
   background-color: #606C38;
   border-radius: 5px;
 }
+
+::selection {
+  background: #ebb981;
+}
