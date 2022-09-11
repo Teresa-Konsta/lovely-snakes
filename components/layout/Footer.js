@@ -5,10 +5,10 @@ const Footer = () => {
         <footer className={styles.footer}>
             <b>&copy;&nbsp;Copyright&nbsp;
             <a href='https://www.linkedin.com/in/tereza-teresa-konstari-8b9594131/'>
-            Tereza Konstari
+                Tereza Konstari
             </a>
-            &nbsp;2022
-            <br />
+            &nbsp;2022<br/>
+            Фото з інтернету<br/>
             MIT License</b>
         </footer>
     );

@@ -158,14 +158,16 @@ export default function Heating() {
                     quality='100'
                 />
             </div>
-            <Image                            
-                layout='intrinsic'
-                alt='heating'
-                src='/pic/heating/bracket3.png'
-                width={417}
-                height={346}
-                quality='100'
-            />
+            <div>
+                <Image                            
+                    layout='intrinsic'
+                    alt='heating'
+                    src='/pic/heating/bracket3.png'
+                    width={417}
+                    height={346}
+                    quality='100'
+                />
+            </div>            
             <h3>
                 <p>
                     На щастя є ще така штука, яка називається кронштейн, на яку ви будете кріпити плафон для лампи нагріву.

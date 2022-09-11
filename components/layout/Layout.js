@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Head from 'next/head';
+import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import Navigation from './Navigation';
 import Footer from './Footer';
@@ -9,9 +8,17 @@ import styles from './Layout.module.css';
 const Layout = (props) => {
   const [showMenu, setShowMenu] = useState(true);
   const [icon, setIcon] = useState(null);
+  const [navStyle, setNavStyle] = useState(styles.navcol);
 
-  const showMenuHandler = (event) => {
-    event.preventDefault();
+  useEffect(() => {
+    if(showMenu) {
+      setNavStyle(styles.navcol);
+    } else {
+      setNavStyle(styles.colclose);
+    }
+  }, [showMenu]);
+
+  const showMenuHandler = () => {
     setShowMenu(true);
     setIcon(null);
   };
@@ -22,16 +29,11 @@ const Layout = (props) => {
   };
 
   return (
-    <div>
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet" />
-      </Head>
+    <div>      
       <Header />
       <div className={styles.row}>
-        {showMenu && <div className={styles.navcol}>          
-          <Navigation onClose={closeMenuHandler} />
+        {showMenu && <div className={navStyle}>          
+          <Navigation onClose={closeMenuHandler}/>
         </div>}
         <main className={styles.main}>
           <div onClick={showMenuHandler}>{icon}</div>
