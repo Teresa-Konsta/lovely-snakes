@@ -18,6 +18,10 @@
     justify-content: space-around;
 }
 
+.stress {
+    color: #DC2F02;
+}
+
 @supports (display: flex) {
     @media screen and (min-width: 280px) {
         .container {       

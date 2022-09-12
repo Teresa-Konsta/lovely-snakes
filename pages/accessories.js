@@ -1,12 +1,13 @@
 import Image from "next/image";
 import PageContainer from "../components/UI/PageContainer";
+import styles from '../components/UI/PageContainer.module.css';
 
 export default function Accessories() {
     return(
         <PageContainer>
             <h2>Декор та Обладнання</h2>
             <h3>
-                <p>Декор</p>
+                <p className={styles.stress}>Декор</p>
                 <p>
                     На ваш смак, бо змії все одно. Але, якщо поставити якусь колоду, то змія буде легше линяти, бо буде чіплятись шкуркою.
                 </p>
@@ -74,7 +75,7 @@ export default function Accessories() {
                 />
             </div>
             <h3>
-                <p>Укриття</p>
+                <p className={styles.stress}>Укриття</p>
                 <p>
                     По одному укритті для полоза можете поставити у холодному та в теплому куті,
                     щоб за потреби він переповзав туди, де йому буде комфортніше.
@@ -100,7 +101,7 @@ export default function Accessories() {
                 />
             </div>
             <h3>
-                <p>Напувалка/басейн</p>
+                <p className={styles.stress}>Напувалка/басейн</p>
                 <p>
                     Ні в якому разі напувалка не повинна стояти у теплому куті.
                     Якщо змія не вилазить із басейну, то це означає, що їй спекотно.
@@ -122,7 +123,7 @@ export default function Accessories() {
                 />
             </div>
             <h3>
-                <p>Термометр-гігрометр (два в одному)</p>
+                <p className={styles.stress}>Термометр-гігрометр (два в одному)</p>
                 <p>
                     Бувають механічні та електронні.
                     Вибирайте краще електронний, він більш точний та довше служить.

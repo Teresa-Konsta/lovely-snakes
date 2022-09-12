@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PageContainer from "../components/UI/PageContainer";
+import styles from '../components/UI/PageContainer.module.css';
 
 export default function Heating() {
     return(
@@ -27,7 +28,7 @@ export default function Heating() {
                     Ось приклади ламп:
                 </p>
             </h3>
-            <h3>Інфрачервоні</h3>
+            <h3 className={styles.stress}>Інфрачервоні</h3>
             <div>
                 <Image                            
                     layout='intrinsic'
@@ -46,7 +47,7 @@ export default function Heating() {
                     quality='100'
                 />
             </div>
-            <h3>Керамічні</h3>
+            <h3 className={styles.stress}>Керамічні</h3>
             <div>
                 <Image                            
                     layout='intrinsic'
@@ -65,7 +66,7 @@ export default function Heating() {
                     quality='100'
                 />
             </div>
-            <h3>Галогенні</h3>
+            <h3 className={styles.stress}>Галогенні</h3>
             <div>
                 <Image                            
                     layout='intrinsic'
@@ -93,7 +94,7 @@ export default function Heating() {
                 <p>
                     Розберемо вати (W) — тобто потужність. Лампа буває на 35, 50, 75, 100, 150 ват.
                 </p>
-                <p>
+                <p className={styles.stress}>
                     То яку ж вибрати?
                 </p>
                 <p>
@@ -132,7 +133,7 @@ export default function Heating() {
                     З першого разу можна помилитись з вибором лампи, але не панікуйте.
                     Купіть більш потужну, і менш потужну, бо взимку температура у приміщенні буде нижчою, і тоді вам потрібна буде більш потужна лампа.
                 </p>
-                <p>
+                <p className={styles.stress}>
                     Плафони для лампи нагріву
                 </p>
                 <p>
@@ -174,7 +175,7 @@ export default function Heating() {
                     Він продається окремо і не йде у комплекті з плафоном.
                     Завдяки йому ви зможете регулювати висоту плафону з лампою нагріву, а отже і трохи температуру в тераріумі.
                 </p>
-                <p>
+                <p className={styles.stress}>
                     Важливо!
                 </p>
                 <p>

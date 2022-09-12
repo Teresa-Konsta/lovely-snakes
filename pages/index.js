@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import PageContainer from '../components/UI/PageContainer';
+import styles from '../components/UI/PageContainer.module.css';
 
 export default function Home() {
   return (      
@@ -25,7 +26,7 @@ export default function Home() {
           Маїса можна утримувати як і одного в тераріумі, так і парами або групою з одного самця і декількох самок.
           Але за умовою, що вони спокійно себе ведуть і не агресивні один до одного.
         </p>
-        <p>
+        <p className={styles.stress}>
           Який сенс заводити змію?
         </p>
         <p>

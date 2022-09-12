@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PageContainer from "../components/UI/PageContainer";
+import styles from '../components/UI/PageContainer.module.css';
 
 export default function Feeding() {
     return(
@@ -48,7 +49,7 @@ export default function Feeding() {
                     />
                 </div>
                 <h3>
-                <p>
+                <p className={styles.stress}>
                     Ожиріння! Як побачити та не довести до такого.
                 </p>
                 <p>
