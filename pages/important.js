@@ -1,3 +1,4 @@
+import Image from "next/image";
 import PageContainer from "../components/UI/PageContainer";
 
 export default function Important() {
@@ -32,6 +33,16 @@ export default function Important() {
                     У неї повинна бути своя температура і волога у тераріуму/контейнері.
                 </p>
             </h3>
+            <div>
+                <Image                            
+                    layout='intrinsic'
+                    alt='feeding'
+                    src='/pic/lin2.png'
+                    width={669}
+                    height={192}
+                    quality='100'
+                />
+            </div>
         </PageContainer>
     );
 }

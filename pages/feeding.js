@@ -1,3 +1,4 @@
+import Image from "next/image";
 import PageContainer from "../components/UI/PageContainer";
 
 export default function Feeding() {
@@ -47,6 +48,16 @@ export default function Feeding() {
                     Пам’ятайте — краще недогодувати, ніж перегодувати!
                 </p>
             </h3>
+            <div>
+                <Image                            
+                    layout='intrinsic'
+                    alt='feeding'
+                    src='/pic/lin1.jpg'
+                    width={549}
+                    height={365}
+                    quality='100'
+                />
+            </div>
         </PageContainer>
     );
 }
