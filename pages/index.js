@@ -25,18 +25,6 @@ export default function Home() {
           Маїса можна утримувати як і одного в тераріумі, так і парами або групою з одного самця і декількох самок.
           Але за умовою, що вони спокійно себе ведуть і не агресивні один до одного.
         </p>
-      </h3>
-      <div>
-        <Image                            
-          layout='intrinsic'
-          alt='intro'
-          src='/pic/intro/intro2.png'
-          width={546}
-          height={295}
-          quality='100'
-        />
-      </div>
-      <h3>
         <p>
           Який сенс заводити змію?
         </p>
@@ -60,9 +48,9 @@ export default function Home() {
         <Image                            
           layout='intrinsic'
           alt='intro'
-          src='/pic/intro/intro3.jpg'
-          width={362}
-          height={364}
+          src='/pic/intro/intro2.png'
+          width={546}
+          height={295}
           quality='100'
         />
       </div>

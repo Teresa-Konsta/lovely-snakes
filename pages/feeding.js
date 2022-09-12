@@ -36,6 +36,18 @@ export default function Feeding() {
                     Якщо полоз погано линяє на постійній основі — негайно до лікаря!
                     Після линяння можна годувати на наступний день, або через день.
                 </p>
+                </h3>
+                <div>
+                    <Image                            
+                        layout='intrinsic'
+                        alt='feeding'
+                        src='/pic/lin1.png'
+                        width={669}
+                        height={276}
+                        quality='100'
+                    />
+                </div>
+                <h3>
                 <p>
                     Ожиріння! Як побачити та не довести до такого.
                 </p>
@@ -47,17 +59,7 @@ export default function Feeding() {
                     Також при ожирінні луска розсувається і між нею починає проглядати шкіра.
                     Пам’ятайте — краще недогодувати, ніж перегодувати!
                 </p>
-            </h3>
-            <div>
-                <Image                            
-                    layout='intrinsic'
-                    alt='feeding'
-                    src='/pic/lin1.jpg'
-                    width={549}
-                    height={365}
-                    quality='100'
-                />
-            </div>
+            </h3>            
         </PageContainer>
     );
 }
