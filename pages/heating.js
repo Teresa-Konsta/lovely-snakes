@@ -108,12 +108,18 @@ export default function Heating() {
                 <Image                            
                     layout='intrinsic'
                     alt='heating'
-                    src='/pic/heating/scale.png'
-                    width={185}
-                    height={310}
+                    src='/pic/heating/scale.jpg'
+                    width={663}
+                    height={512}
                     quality='100'
                 />
             </div>
+            <p>
+                Source:&nbsp;
+                <a href="https://www.reptilienkosmos.de/en/exo-terra-ceramic-heater-ceramic-heater-for-terrariums_178_3233">
+                    reptilienkosmos.de
+                </a>
+            </p>
             <h3>
                 <p>
                     На фото ми бачимо, що, наприклад, лампа на 100 ват на висоті 40 см дає температуру 27ºС.
@@ -146,26 +152,16 @@ export default function Heating() {
                     layout='intrinsic'
                     alt='heating'
                     src='/pic/heating/bracket1.png'
-                    width={235}
-                    height={241}
+                    width={293}
+                    height={320}
                     quality='100'
                 />
                 <Image                            
                     layout='intrinsic'
                     alt='heating'
                     src='/pic/heating/bracket2.png'
-                    width={456}
-                    height={225}
-                    quality='100'
-                />
-            </div>
-            <div>
-                <Image                            
-                    layout='intrinsic'
-                    alt='heating'
-                    src='/pic/heating/bracket3.png'
-                    width={417}
-                    height={346}
+                    width={639}
+                    height={283}
                     quality='100'
                 />
             </div>            
