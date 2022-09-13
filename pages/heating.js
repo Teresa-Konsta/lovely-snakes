@@ -25,67 +25,8 @@ export default function Heating() {
                     - висота тераріуму, тобто відстань від лампи до дна тераріуму.
                 </p>
                 <p>
-                    Ось приклади ламп:
+                    Приклади ламп: інфрачервоні, керамічні, галогенні.
                 </p>
-            </h3>
-            <h3 className={styles.stress}>Інфрачервоні</h3>
-            <div>
-                <Image                            
-                    layout='intrinsic'
-                    alt='heating'
-                    src='/pic/heating/infrared1.png'
-                    width={145}
-                    height={233}
-                    quality='100'
-                />
-                <Image                            
-                    layout='intrinsic'
-                    alt='heating'
-                    src='/pic/heating/infrared2.png'
-                    width={320}
-                    height={233}
-                    quality='100'
-                />
-            </div>
-            <h3 className={styles.stress}>Керамічні</h3>
-            <div>
-                <Image                            
-                    layout='intrinsic'
-                    alt='heating'
-                    src='/pic/heating/ceramic1.png'
-                    width={262}
-                    height={194}
-                    quality='100'
-                />
-                <Image                            
-                    layout='intrinsic'
-                    alt='heating'
-                    src='/pic/heating/ceramic2.png'
-                    width={218}
-                    height={175}
-                    quality='100'
-                />
-            </div>
-            <h3 className={styles.stress}>Галогенні</h3>
-            <div>
-                <Image                            
-                    layout='intrinsic'
-                    alt='heating'
-                    src='/pic/heating/halogen1.png'
-                    width={196}
-                    height={220}
-                    quality='100'
-                />
-                <Image                            
-                    layout='intrinsic'
-                    alt='heating'
-                    src='/pic/heating/halogen2.png'
-                    width={224}
-                    height={224}
-                    quality='100'
-                />
-            </div>
-            <h3>
                 <p>
                     Рекомендую та використовую інфрачервону.
                     Проти галогенних нічого поганого не скажу, а от керамічні не сподобались.
@@ -146,33 +87,37 @@ export default function Heating() {
                     Плафони бувають різних розмірів та з різним обмеженням щодо потужності ламп.
                     Та це все написано на упаковці, тож при виборі ви не помилитесь. 
                 </p>
+                <p>
+                    На щастя є ще така штука, яка називається кронштейн, на яку ви будете кріпити плафон для лампи нагріву.
+                    Він продається окремо і не йде у комплекті з плафоном.
+                    Завдяки йому ви зможете регулювати висоту плафону з лампою нагріву, а отже і трохи температуру в тераріумі.
+                </p>
             </h3>
             <div>
                 <Image                            
                     layout='intrinsic'
                     alt='heating'
                     src='/pic/heating/bracket1.png'
-                    width={293}
-                    height={320}
+                    width={193}
+                    height={212}
                     quality='100'
                 />
                 <Image                            
                     layout='intrinsic'
                     alt='heating'
                     src='/pic/heating/bracket2.png'
-                    width={639}
-                    height={283}
+                    width={479}
+                    height={212}
                     quality='100'
                 />
             </div>            
-            <h3>
-                <p>
-                    На щастя є ще така штука, яка називається кронштейн, на яку ви будете кріпити плафон для лампи нагріву.
-                    Він продається окремо і не йде у комплекті з плафоном.
-                    Завдяки йому ви зможете регулювати висоту плафону з лампою нагріву, а отже і трохи температуру в тераріумі.
-                </p>
+            <h3>                
                 <p className={styles.stress}>
                     Важливо!
+                </p>
+                <p>
+                    Лампу для нагріву розмістіть ззовні тераріуму.
+                    Якщо вона буде всередині — змія обпалиться.
                 </p>
                 <p>
                     Існують ще такі світильники (плафони):
@@ -183,25 +128,25 @@ export default function Heating() {
                     layout='intrinsic'
                     alt='heating'
                     src='/pic/heating/lamp1.png'
-                    width={333}
-                    height={169}
+                    width={165}
+                    height={103}
                     quality='100'
                 />
                 <Image                            
                     layout='intrinsic'
                     alt='heating'
                     src='/pic/heating/lamp2.png'
-                    width={342}
-                    height={163}
+                    width={664}
+                    height={103}
                     quality='100'
                 />
             </div>
             <h3>
                 <p>
-                    Та вони не призначені для ламп накалювання! Вони розраховані для ультрафіолетових  ламп,
+                    Та вони не призначені для ламп накалювання! Вони розраховані для ультрафіолетових ламп
                     та ламп денного світла, які майже не нагріваються.
                     Якщо не хочете спалити такий світильник — не використовуйте його для лампи накалювання.
-                    А от, якщо захочете придбати лампу денного світла, тоді сміло використовуйте саме цей світильник.
+                    А от, якщо захочете придбати лампу денного світла (до 26W), тоді сміливо використовуйте саме цей світильник.
                 </p>
             </h3>
         </PageContainer>

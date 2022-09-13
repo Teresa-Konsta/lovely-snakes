@@ -21,7 +21,7 @@ const Header = () => {
                         </div>
                     </Link>
                 </h2>
-                <Link href='/'>
+                <Link href='https://instagram.com/lovely_snakesss?igshid=YmMyMTA2M2Y='>
                     <a href='https://instagram.com/lovely_snakesss?igshid=YmMyMTA2M2Y='
                         className={styles.instagram}
                     >

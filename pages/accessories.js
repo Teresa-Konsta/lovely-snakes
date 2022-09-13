@@ -10,12 +10,7 @@ export default function Accessories() {
                 <p className={styles.stress}>Декор</p>
                 <p>
                     На ваш смак, бо змії все одно. Але, якщо поставити якусь колоду, то змія буде легше линяти, бо буде чіплятись шкуркою.
-                </p>
-                <p>
-                    Не садіть маленьку змію одразу в великий тераріум. Нехай спершу посидить у контейнері на 15-30л, не більше.
-                    У великому тераріумі маленька змія може відчувати великий стрес і відмовлятись від їжі.
-                    Пересадити можна буде десь через півроку — рік.
-                </p>
+                </p>                
                 <p>
                     Якщо ви хочете з природи принести у тераріум гарну колоду, щоб змійка по ній повзала (до речі і линяти їй буде легше), то ви повинні її продезінфікувати. 
                     Помістіть у кип’яток та прокип’ятіть 20 хвилин, або покладіть у духову піч на 150ºС, хвилин на 15-20, не більше.
@@ -26,17 +21,9 @@ export default function Accessories() {
                 <Image                            
                     layout='intrinsic'
                     alt='accessories'
-                    src='/pic/accessories/wood1.png'
-                    width={320}
-                    height={242}
-                    quality='100'
-                />
-                <Image                            
-                    layout='intrinsic'
-                    alt='accessories'
-                    src='/pic/accessories/wood2.png'
-                    width={358}
-                    height={227}
+                    src='/pic/accessories/wood.jpg'
+                    width={669}
+                    height={309}
                     quality='100'
                 />
             </div>
@@ -52,61 +39,65 @@ export default function Accessories() {
                 <Image                            
                     layout='intrinsic'
                     alt='accessories'
-                    src='/pic/accessories/moss1.png'
-                    width={230}
-                    height={268}
+                    src='/pic/accessories/moss1.jpg'
+                    width={365}
+                    height={164}
                     quality='100'
                 />
                 <Image                            
                     layout='intrinsic'
                     alt='accessories'
                     src='/pic/accessories/moss2.jpg'
-                    width={268}
-                    height={268}
-                    quality='100'
-                />
-                <Image                            
-                    layout='intrinsic'
-                    alt='accessories'
-                    src='/pic/accessories/moss3.png'
-                    width={218}
-                    height={268}
+                    width={365}
+                    height={164}
                     quality='100'
                 />
             </div>
             <h3>
                 <p className={styles.stress}>Укриття</p>
                 <p>
+                    Змії потрібне укриття в холодному куті, щоб вона там ховалась для уникнення стресу.
+                    В укриття можна покласти мох, він м’який та добре тримає вологу.                    
+                </p>
+                <p>
                     По одному укритті для полоза можете поставити у холодному та в теплому куті,
                     щоб за потреби він переповзав туди, де йому буде комфортніше.
-                    Укриття не повинне бути дуже великим, щоб змія не відчувала стрес.
+                    Укриття не повинне бути дуже великим тому, що маїси полюбляють щільно прилягати до стін.
                 </p>
             </h3>
             <div>
                 <Image                            
                     layout='intrinsic'
                     alt='accessories'
-                    src='/pic/accessories/shelter1.png'
-                    width={231}
-                    height={156}
+                    src='/pic/accessories/shelter1.jpg'
+                    width={306}
+                    height={163}
                     quality='100'
                 />
                 <Image                            
                     layout='intrinsic'
                     alt='accessories'
-                    src='/pic/accessories/shelter2.png'
-                    width={256}
-                    height={147}
+                    src='/pic/accessories/shelter2.jpg'
+                    width={306}
+                    height={163}
+                    quality='100'
+                />
+                <Image                            
+                    layout='intrinsic'
+                    alt='accessories'
+                    src='/pic/accessories/shelter3.jpg'
+                    width={306}
+                    height={163}
                     quality='100'
                 />
             </div>
             <h3>
                 <p className={styles.stress}>Напувалка/басейн</p>
                 <p>
-                    Ні в якому разі напувалка не повинна стояти у теплому куті.
+                    У жодному разі напувалка не має стояти у теплому куті, бо вона не повинна нагріватися.
                     Якщо змія не вилазить із басейну, то це означає, що їй спекотно.
                     Таким чином вона охолоджує своє тіло.
-                    Обов’язково подивіться на термометр, можливо температура зависока.
+                    Обов’язково подивіться на термометр, скоріш за все температура зависока.
                 </p>
                 <p>
                     Напувалка повинна бути важкою, щоб змія її не перегорнула.
@@ -116,9 +107,9 @@ export default function Accessories() {
                 <Image                            
                     layout='intrinsic'
                     alt='accessories'
-                    src='/pic/accessories/pool.png'
-                    width={259}
-                    height={180}
+                    src='/pic/accessories/pool.jpg'
+                    width={502}
+                    height={247}
                     quality='100'
                 />
             </div>
@@ -134,17 +125,17 @@ export default function Accessories() {
                 <Image                            
                     layout='intrinsic'
                     alt='accessories'
-                    src='/pic/accessories/termo1.jpg'
-                    width={183}
-                    height={181}
+                    src='/pic/accessories/termo1.png'
+                    width={218}
+                    height={223}
                     quality='100'
                 />
                 <Image                            
                     layout='intrinsic'
                     alt='accessories'
                     src='/pic/accessories/termo2.png'
-                    width={132}
-                    height={183}
+                    width={218}
+                    height={223}
                     quality='100'
                 />                
             </div>

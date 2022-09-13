@@ -7,8 +7,13 @@ export default function Terrarium() {
             <h2>Тераріум</h2>
             <h3>
                 <p>
-                    Мінімальний розмір 60х40х40. Обов’язково горизонтального типу.
+                    Мінімальний розмір 60х40х40 на одну змію. Обов’язково горизонтального типу.
                     Дуже великий тераріум теж не потрібен. Оптимальний розмір 70(або 80)х40х40 (чи 45-50, не важливо).
+                </p>
+                <p>
+                    Не садіть маленьку змію одразу у великий тераріум. Нехай спершу посидить у контейнері на 15-30л, не більше.
+                    У великому тераріумі маленька змія може відчувати великий стрес і відмовлятись від їжі.
+                    Пересадити можна буде десь через півроку-рік.
                 </p>
                 <p>
                     Замість тераріуму можна використовувати харчовий контейнер,
@@ -21,17 +26,17 @@ export default function Terrarium() {
                 <Image                            
                     layout='intrinsic'
                     alt='terrarium'
-                    src='/pic/terrarium/terrarium1.png'
-                    width={258}
-                    height={175}
+                    src='/pic/terrarium/terrarium1.jpg'
+                    width={392}
+                    height={196}
                     quality='100'
                 />
-                <Image
+                <Image                            
                     layout='intrinsic'
                     alt='terrarium'
-                    src='/pic/terrarium/terrarium2.png'
-                    width={225}
-                    height={224}
+                    src='/pic/terrarium/terrarium2.jpg'
+                    width={392}
+                    height={196}
                     quality='100'
                 />
             </div>            
