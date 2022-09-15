@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PageContainer from "../components/UI/PageContainer";
+import styles from '../components/UI/PageContainer.module.css';
 
 export default function Terrarium() {
     return(
@@ -39,7 +40,16 @@ export default function Terrarium() {
                     height={196}
                     quality='100'
                 />
-            </div>            
+            </div>
+            <h3>
+                <p className={styles.stress}>
+                    Важливо!
+                </p>
+                <p>
+                    Акваріум не підходить для утримання змії, оскільки там відсутня проточна вентиляція та повітря буде застоюватися.
+                    А це впливатиме на якість та тривалість життя.
+                </p>
+            </h3>
         </PageContainer>
     );
 }
