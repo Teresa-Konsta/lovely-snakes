@@ -26,7 +26,7 @@ const Navigation = (props) => {
       <div onClick={closeMenuHandler}><AiOutlineClose className={styles.icon}/></div>   
       {navMenu.map((item, index) => {
         return (
-          <Link key={index} href={item.path} legacyBehavior>
+          <Link key={index} href={item.path}>
             <a
               className={`${
                 router.pathname === item.path ? styles.activeLink : null

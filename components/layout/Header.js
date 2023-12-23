@@ -10,7 +10,7 @@ const Header = () => {
     return(
         <header className={styles.header}>
                 <h2>
-                    <Link href='/' legacyBehavior>
+                    <Link href='/'>
                         <div className={styles.line}>
                             <span className={styles.headerline}>
                                 Lovely Snakes
@@ -21,9 +21,10 @@ const Header = () => {
                         </div>
                     </Link>
                 </h2>
-                <a href='https://instagram.com/lovely_snakesss?igshid=YmMyMTA2M2Y='
+                <Link href='https://instagram.com/lovely_snakesss?igshid=YmMyMTA2M2Y='>
+                    <a href='https://instagram.com/lovely_snakesss?igshid=YmMyMTA2M2Y='
                         className={styles.instagram}
-                >
+                    >
                         <Image                            
                             layout='intrinsic'
                             alt='instagram'
@@ -33,7 +34,8 @@ const Header = () => {
                             quality='75'
                         /><br/>
                         <AiOutlineInstagram/>lovely_snakesss
-                </a>                                
+                    </a>
+                </Link>                                  
         </header>
     );
 };
