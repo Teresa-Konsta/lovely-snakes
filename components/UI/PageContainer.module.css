@@ -22,6 +22,19 @@
     color: #DC2F02;
 }
 
+.tbl, .tbl td, .tbl th, .tbl tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: max-content;
+    width: 60%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.tbl th {
+    text-align: center;
+}
+
 @supports (display: flex) {
     @media screen and (min-width: 280px) {
         .container {       

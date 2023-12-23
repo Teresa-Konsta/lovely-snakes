@@ -3,8 +3,10 @@ import PageContainer from "../components/UI/PageContainer";
 import styles from '../components/UI/PageContainer.module.css';
 
 export default function Feeding() {
+    //const NoSSR = dynamic(() => import('../components/no-ssr'), { ssr: false })
+
     return(
-        <PageContainer>
+        <PageContainer suppressHydrationWarning={true}>
             <h2>Годування</h2>
             <h3>
                 <p>
@@ -27,7 +29,7 @@ export default function Feeding() {
                     Активно росте полоз перші три роки, а потім ще підростає, але повільно.
                 </p>
                 <p>
-                    Змія може відмовитись від їжі. Скоріш за все, це означає, що вона буде линяти. Згодом в неї помутніють очі і вона стане бляклою.
+                    Змія може відмовитись від їжі. Скоріш за все, це означає, що вона буде линяти. Згодом у неї помутніють очі і вона стане бляклою.
                     Та незабаром очі знову просвітліють, і це буде означати, що скоро змія перелиняє.
                     Під час линяння вологість повинна бути трохи більшою, ніж зазвичай.
                 </p>
@@ -62,7 +64,48 @@ export default function Feeding() {
                     Також при ожирінні луска розсувається і між нею починає проглядати шкіра.
                     Пам’ятайте — краще недогодувати, ніж перегодувати!
                 </p>
-            </h3>            
+                <div className={styles.stress}>
+                    <div>Співвідношення ваги до віку</div>
+                </div><br/>
+                <div>
+                    <table  className={styles.tbl}>
+                        <tbody>
+                            <tr>
+                                <th>Вік</th>
+                                <th>Вага</th>
+                            </tr>
+                            <tr>
+                                <td>0-3 місяці</td>
+                                <td>4-15г</td>
+                            </tr>
+                            <tr>
+                                <td>3-5 місяців</td>
+                                <td>16-23г</td>
+                            </tr>
+                            <tr>
+                                <td>6-8 місяців</td>
+                                <td>24-30г</td>
+                            </tr>
+                            <tr>
+                                <td>8-12 місяців</td>
+                                <td>30-50г</td>
+                            </tr>
+                            <tr>
+                                <td>12-18 місяців</td>
+                                <td>50-100г</td>
+                            </tr>
+                            <tr>
+                                <td>18-24 місяці</td>
+                                <td>100-500г</td>
+                            </tr>
+                            <tr>
+                                <td>24+ місяці</td>
+                                <td>500-800г</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </h3>
         </PageContainer>
     );
 }
