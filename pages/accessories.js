@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import PageContainer from "../components/UI/PageContainer";
 import styles from '../components/UI/PageContainer.module.css';
@@ -100,7 +101,7 @@ export default function Accessories() {
                     Обов’язково подивіться на термометр, скоріш за все температура зависока.
                 </p>
                 <p>
-                    Напувалка повинна бути важкою, щоб змія її не перегорнула.
+                    Напувалка повинна бути достатньо важкою, щоб змія її не перекинула, та таких розмірів, щоб рептилія туди змогла повністю вміститись.
                 </p>
             </h3>
             <div>
